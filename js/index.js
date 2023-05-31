@@ -6,7 +6,7 @@ let cursoTeorico;
 let psicofisico;
 function consola(){
     while (comando != 'SALIR') {
-        comando = prompt('"Todos los comandos deben realizarse en letra MAYUSCULA", Por favor indique sobre que examen quiere consultar: \n-PPA \n-PCA \n-INSTRUCTOR DE VUELO \n-PC PRIMERA CLASE \n-TLA \n-SALIR \n-TURNOS');
+        comando = prompt('"Todos los comandos deben realizarse en letra MAYUSCULA", Por favor indique sobre que examen quiere consultar: \n-PPA \n-PCA \n-INSTRUCTOR DE VUELO \n-PC PRIMERA CLASE \n-TLA \n-TURNOS \n-SALIR ');
         switch (comando) {
             case 'PPA':
                     edad = prompt('Ingrese su edad');
